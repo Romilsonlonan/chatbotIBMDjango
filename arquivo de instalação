@@ -1,0 +1,35 @@
+# INTALAÇÕES NECESSÁRIAS
+conda activate base
+conda create --name chatbot_django python=3.6
+conda clean --all # se der erro limpar
+pip install django 
+pip install chatterbot
+pip install chatterbot-corpus 
+pip install -r requirements.txt               # install requirements
+pip install --no-build-isolation --editable . # compile and install spaCy
+pip install -U pip setuptools wheel
+pip install -U spacy
+python -m spacy validate
+python -m spacy download en_core_news_sm
+python -m spacy download en_core_web_trf
+pip install nltk
+pip install textblob
+pip install django-widget-tweaks
+
+
+# TESTANDO ERROS DE INSTALAÇÃO
+python -m pytest --pyargs spacy
+python -m pip install -U pytest  # update pytest
+python -m pytest --pyargs spacy  # basic tests
+pip install hypothesis
+pip install pipdeptree
+pipdeptree
+
+# TESTANDO O BANCO DE DADOS 
+pip install pytest
+python3 manage.py test
+python3 manage.py shell
+
+
+# INICIANDO O PROJETO
+django-admin startproject meu__projeto .

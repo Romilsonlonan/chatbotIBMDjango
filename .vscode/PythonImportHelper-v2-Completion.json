@@ -1,0 +1,766 @@
+[
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "django.http",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.http",
+        "description": "django.http",
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "csrf_exempt",
+        "importPath": "django.views.decorators.csrf",
+        "description": "django.views.decorators.csrf",
+        "isExtraImport": true,
+        "detail": "django.views.decorators.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "Chat",
+        "importPath": "nltk.chat.util",
+        "description": "nltk.chat.util",
+        "isExtraImport": true,
+        "detail": "nltk.chat.util",
+        "documentation": {}
+    },
+    {
+        "label": "TextBlob",
+        "importPath": "textblob",
+        "description": "textblob",
+        "isExtraImport": true,
+        "detail": "textblob",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chatbot.migrations.0001_initial",
+        "description": "chatbot.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Mensagem\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "chatbot.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chatbot.migrations.0002_delete_mensagem",
+        "description": "chatbot.migrations.0002_delete_mensagem",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"chatbot\", \"0001_initial\"),\n    ]\n    operations = [\n        migrations.DeleteModel(name=\"Mensagem\",),\n    ]",
+        "detail": "chatbot.migrations.0002_delete_mensagem",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotConfig",
+        "kind": 6,
+        "importPath": "chatbot.apps",
+        "description": "chatbot.apps",
+        "peekOfCode": "class ChatbotConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"chatbot\"",
+        "detail": "chatbot.apps",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterTestCase",
+        "kind": 6,
+        "importPath": "chatbot.tests",
+        "description": "chatbot.tests",
+        "peekOfCode": "class RegisterTestCase(TestCase):\n    def test_create_register(self):\n        # Cria um novo objeto Register\n        register = Register(nome='Romilson', email='romilson@example.com', contatos='+5511999999999')\n        # Salva o objeto Register\n        register.save()\n        # Verifica se o objeto Register foi salvo com sucesso\n        self.assertTrue(Register.objects.filter(email='romilson@example.com').exists())\n    def test_get_register_by_email(self):\n        # Cria um novo objeto Register",
+        "detail": "chatbot.tests",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "chatbot.urls",
+        "description": "chatbot.urls",
+        "peekOfCode": "urlpatterns = [\n    path('chatbot/', views.chatbot, name='chatbot'),\n    path('exit/', views.exit, name='exit')\n]",
+        "detail": "chatbot.urls",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def preprocess(text):\n    return chat.respond(text)  \n# Função para análise de sentimentos\ndef analisar_sentimento(mensagem):\n    analysis = TextBlob(mensagem)\n    sentiment = analysis.sentiment.polarity\n    if sentiment > 0.5:\n        return \"Muito positivo!\"\n    elif sentiment > 0:\n        return \"Positivo.\"",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "analisar_sentimento",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def analisar_sentimento(mensagem):\n    analysis = TextBlob(mensagem)\n    sentiment = analysis.sentiment.polarity\n    if sentiment > 0.5:\n        return \"Muito positivo!\"\n    elif sentiment > 0:\n        return \"Positivo.\"\n    elif sentiment == 0:\n        return \"Neutro.\"\n    else:",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "extrair_palavras_chave",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def extrair_palavras_chave(mensagem):\n    tokens = nltk.word_tokenize(mensagem)\n    tagged = nltk.pos_tag(tokens)\n    keywords = [word for word, pos in tagged if pos in ['NN', 'VB', 'JJ']]  # Substantivos, verbos e adjetivos\n    return keywords\n@csrf_exempt\ndef chatbot(request):\n    # Verifica se a solicitação é do tipo POST\n    if request.method == 'POST':\n        # Obtém a entrada do usuário",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def chatbot(request):\n    # Verifica se a solicitação é do tipo POST\n    if request.method == 'POST':\n        # Obtém a entrada do usuário\n        user_input = request.POST.get('user_input', \"\")\n        # Prepara a entrada do usuário para processamento\n        processed_input = preprocess(user_input)\n        # Percorre o dicionário de interações\n        for pergunta, responder in pares:\n            # Verifica se a entrada do usuário contém todas as palavras-chave da pergunta",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "exit",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def exit(request):\n    auth.logout(request)\n    return redirect('/auth/register')",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "pares",
+        "kind": 5,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "pares = [\n    [\n        r'(.*) (Não|Negativo|De modo nehum|Assim não|Não quero!)',\n        ['Desculpe, então vamos tentar novamete? Reformule a pergunta.']\n    ],\n    [\n        r'(.*) (Não entendi|não compreendo|não entendo|não aceito)(.*?)!',\n        ['Desculpe! Estou em processo de atualização. Pode reformular a pergunta?' ]\n    ],\n    [",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "reflections_pt",
+        "kind": 5,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "reflections_pt = {'eu': 'você',\n                  'eu sou': 'você é',\n                  'eu era': 'você era',\n                  \"eu iria\": 'você iria',\n                  \"eu irei\": 'você irá',\n                  'meu': 'seu',\n                  'você': 'eu',\n                  'você é': 'eu sou',\n                  'você era': 'eu era',\n                  \"você irá\": 'eu irei',",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "chat",
+        "kind": 5,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "chat = Chat(pares, reflections_pt)\n# Pré-processamento de texto\ndef preprocess(text):\n    return chat.respond(text)  \n# Função para análise de sentimentos\ndef analisar_sentimento(mensagem):\n    analysis = TextBlob(mensagem)\n    sentiment = analysis.sentiment.polarity\n    if sentiment > 0.5:\n        return \"Muito positivo!\"",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "register.migrations.0001_initial",
+        "description": "register.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = []\n    operations = [\n        migrations.CreateModel(\n            name=\"Register\",\n            fields=[\n                (\n                    \"id\",\n                    models.BigAutoField(",
+        "detail": "register.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterAdmin",
+        "kind": 6,
+        "importPath": "register.admin",
+        "description": "register.admin",
+        "peekOfCode": "class RegisterAdmin(admin.ModelAdmin):\n    list_display = ['username', 'email', 'contatos']  # Campos a serem exibidos na lista de registros\nadmin.site.register(Register, RegisterAdmin)",
+        "detail": "register.admin",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterConfig",
+        "kind": 6,
+        "importPath": "register.apps",
+        "description": "register.apps",
+        "peekOfCode": "class RegisterConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"register\"",
+        "detail": "register.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "kind": 6,
+        "importPath": "register.models",
+        "description": "register.models",
+        "peekOfCode": "class Register(models.Model):\n    username = models.CharField(max_length=100)\n    email = models.EmailField()\n    contatos = models.CharField(max_length=15)\n    def __str__(self):\n        return self.username",
+        "detail": "register.models",
+        "documentation": {}
+    },
+    {
+        "label": "MensagemModelTest",
+        "kind": 6,
+        "importPath": "register.tests",
+        "description": "register.tests",
+        "peekOfCode": "class MensagemModelTest(TestCase):\n    def setUp(self):\n        Mensagem.objects.create(texto=\"Esta é uma mensagem de teste.\")\n    def test_texto_content(self):\n        mensagem = Mensagem.objects.get(id=1)\n        expected_object_name = f'{mensagem.texto}'\n        self.assertEquals(expected_object_name, 'Esta é uma mensagem de teste.')\nclass ChatbotViewTest(TestCase):\n    def test_view_url_exists_at_proper_location(self):\n        response = self.client.get('/chatbot/')",
+        "detail": "register.tests",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotViewTest",
+        "kind": 6,
+        "importPath": "register.tests",
+        "description": "register.tests",
+        "peekOfCode": "class ChatbotViewTest(TestCase):\n    def test_view_url_exists_at_proper_location(self):\n        response = self.client.get('/chatbot/')\n        self.assertEqual(response.status_code, 200)\n    def test_view_url_accessible_by_name(self):\n        response = self.client.get(reverse('chatbot'))\n        self.assertEqual(response.status_code, 200)\n    def test_view_uses_correct_template(self):\n        response = self.client.get(reverse('chatbot'))\n        self.assertTemplateUsed(response, 'bases/base.html')",
+        "detail": "register.tests",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "register.urls",
+        "description": "register.urls",
+        "peekOfCode": "urlpatterns = [\n    path('register/', views.register, name='register'),  \n]",
+        "detail": "register.urls",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "register.views",
+        "description": "register.views",
+        "peekOfCode": "def register(request):\n    if request.method == 'GET':\n        if request.user.is_authenticated:\n            return redirect('/chatbot')\n        return render(request, \"bases/register.html\")\n    elif request.method == 'POST':\n        # Obtém os dados do formulário\n        username = request.POST.get('username')\n        email = request.POST.get('email')\n        contatos = request.POST.get('contatos')",
+        "detail": "register.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "setup.asgi",
+        "description": "setup.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "setup.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-g7abamm@!(-had0z^%9!=(zqv9mvl44q2u-=go&ty1cm5d+7yy'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-g7abamm@!(-had0z^%9!=(zqv9mvl44q2u-=go&ty1cm5d+7yy'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'register', \n    'chatbot'",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'setup.urls'",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "ROOT_URLCONF = 'setup.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'setup.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'pt-BR'\nTIME_ZONE = 'America/Sao_Paulo'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "TIME_ZONE = 'America/Sao_Paulo'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',\n    constants.WARNING: 'alert-warning',\n}",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSEGE_TAGS",
+        "kind": 5,
+        "importPath": "setup.settings",
+        "description": "setup.settings",
+        "peekOfCode": "MESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',\n    constants.WARNING: 'alert-warning',\n}",
+        "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "setup.urls",
+        "description": "setup.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('register.urls')),\n    path('auth/', include('chatbot.urls')),  \n]",
+        "detail": "setup.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "setup.wsgi",
+        "description": "setup.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "setup.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault(\"DJANGO_SETTINGS_MODULE\", \"setup.settings\")\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

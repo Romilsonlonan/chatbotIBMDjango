@@ -1,0 +1,66 @@
+<!--carrega os arquivos estáticos na página HTML-->
+{% load static %}
+<!-- Declaração do tipo de documento -->
+<!DOCTYPE html>
+
+<!-- Define a linguagem do documento -->
+<html lang="pt">
+
+<!-- Declara o conjunto de caracteres UTF-8 -->
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Configura a compatibilidade do Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Configura a viewport para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página -->
+    <title>{% block title %}ChatBot IBM{% endblock %}</title>
+
+    <!-- Importa um arquivo CSS externo -->
+        <!-- Bloco de Estilos -->
+        {% block styles %}
+          <link rel="stylesheet" type="text/css" href="{% static 'chatbot/css/styles.css' %}">
+        {% endblock %}
+
+    <!-- Importa a biblioteca jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Inclua o token CSRF como uma variável JavaScript -->
+    <script>
+        var csrf_token = "{{ csrf_token }}";
+    </script>
+
+</head>
+
+<body>
+    <!-- bloco html app usuarios -->
+    {% block icons %}
+      {% include 'blocks/header.html' %}
+    {% endblock %}  
+    <br>
+    {% block interaction %}
+      {% include 'blocks/interaction.html' %}
+    {% endblock %} 
+    <br>
+    {% block feedback %}
+      {% include 'blocks/feedback.html' %}
+    {% endblock %}  
+    <br>
+    <br>
+    {% block footer %}
+      {% include 'blocks/footer.html' %}
+    {% endblock %}
+  <!-- Bloco de scripts -->
+    {% block scripts %}
+      <script src="{% static 'chatbot/js/interaction.js' %}"></script>
+      <script src="{% static 'chatbot/js/feedback.js' %}"></script>
+    {% endblock %}
+    
+</body>
+
+</html>

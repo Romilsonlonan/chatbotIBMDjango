@@ -1,0 +1,21 @@
+<!--carrega os arquivos estáticos na página HTML-->
+{% load static %}
+
+<!-- Bloco de conteúdo da nossa página -->    
+{% block feedback %}
+
+    <section>
+        <div id="feedback">
+            <p>Deixe o seu feedback</p> <div class="rating">
+                <span class="star" data-rating="1">&#9733;</span>
+                <span class="star" data-rating="2">&#9733;</span>
+                <span class="star" data-rating="3">&#9733;</span>
+                <span class="star" data-rating="4">&#9733;</span>
+                <span class="star" data-rating="5">&#9733;</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="{% static 'chatbot/js/interaction.js' %}"></script>
+
+{% endblock %}

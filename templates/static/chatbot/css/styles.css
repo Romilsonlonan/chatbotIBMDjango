@@ -1,0 +1,260 @@
+/* Reset CSS para remover estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos globais */
+body {
+    background-color: #000; /* Fundo escuro */
+    background-image: url('/static/chatbot/img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #e4767680;
+    padding: 45px;
+    text-align: center;
+    position: relative; /* Adicione uma posição relativa para elementos filhos absolutos */
+}
+
+/* Estilos para o cabeçalho h1 */
+h1 {
+    display: flex; /* Use display flex para alinhar o conteúdo */
+    align-items: center; /* Alinhe verticalmente ao centro (opcional) */
+    color: rgb(9, 10, 9);
+    font-size: 24px; /* Tamanho da fonte em pixels */
+    margin-top: 5px; /* Adicione margem superior para espaçamento */
+    margin-left: 130px; /* Adicione margem à esquerda para ajustar ao logo */
+
+    /* **Anotação:**
+
+    Alterei o tamanho da fonte do cabeçalho para 24px.
+    Também adicionei uma margem superior de 5px e uma margem esquerda de 130px para ajustar ao logotipo. */
+}
+
+/* Estilos para o logotipo */
+#logo {
+    position: absolute;
+    top: 16px; /* Posicione o logotipo mais perto do topo */
+    left: 68px; /* Posicione o logotipo mais perto da esquerda */
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+    /* **Anotação:**
+
+    Alterei o tamanho do logotipo para 90px de largura e 90px de altura.
+    Também adicionei um raio de borda de 50% para arredondá-lo. */
+}
+
+/* Estilos para ícones de redes sociais */
+#github-icon, #linkedin-icon {
+    position: absolute;
+    width: 70px; /* Reduza o tamanho dos ícones para economizar espaço */
+    height: 70px;
+    border-radius: 50%;
+    top: 25px; /* Posicione os ícones mais perto do topo */
+
+    /* **Anotação:**
+
+    Alterei o tamanho dos ícones de redes sociais para 70px de largura e 70px de altura.
+    Também adicionei um raio de borda de 50% para arredondá-los.
+    Posicionei os ícones a 25px do topo da página. */
+}
+
+#github-icon {
+    right: 130px; /* Posicione o ícone do GitHub à esquerda */
+    width: 120px; /* Reduza o tamanho do ícone do GitHub para economizar espaço */
+    height: 70px;
+
+    /* **Anotação:**
+
+    Posicionei o ícone do GitHub a 130px da borda direita da página.
+    Alterei o tamanho do ícone do GitHub para 120px de largura e 70px de altura. */
+}
+
+#linkedin-icon {
+    right: 70px; /* Posicione o ícone do LinkedIn à direita */
+
+    /* **Anotação:**
+
+    Posicionei o ícone do LinkedIn a 70px da borda direita da página. */
+}
+
+/* Estilos para o contêiner de mensagens */
+.message-container {
+    width: 75%;
+    height: 400px;
+    margin: 0 auto;
+    overflow: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 35px; /* Adicione margem superior para espaçamento */
+}
+
+/* Estilos para o ícone IBMChat */
+#chatbot img {
+    width: 90px; /* Largura desejada */
+    height: 90px; /* Altura desejada */
+    filter: invert(100%); /* invert a cor ícone */
+}
+
+
+/* Estilos para mensagens de pergunta e resposta */
+.message {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* ESTILOS PARA MENSAGENS */
+
+.bot-message {
+    background-color: #f3f3f3;
+    text-align: left;
+    color: brown; /* Define a cor da mensagem do chatbot como marrom */
+}
+
+
+.user-message {
+    background-color: #e2f5e0;
+    text-align: right;
+    color: blue; /* Define a cor da mensagem do usuário como azul */
+}
+
+/* Estilos para o texto do bot */
+.botText {
+    font-family: monospace;
+    font-size: 34px;
+    text-align: center;
+    line-height: 15px;
+    color: rgb(7, 12, 7);
+}
+
+/* Estilos para a entrada do usuário */
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+/* ESTILOS PARA CAMPO DE ENTRADA DE TEXTO USUÁRIO */
+
+#textInput {
+    border: 3px solid #e6e2e2;
+    font-family: monospace;
+    font-size: 20px;
+    width: 100%;
+    padding: 16px;
+    color: rgb(78, 73, 71);
+    border-radius: 15px;
+}
+
+/* ESTILOS PARA OS BOTÕES */
+
+.buttonInput,
+.button-style {
+    padding: 15px 15px;
+    font-family: monospace;
+    font-size: 16px;
+    border: 3px solid #5b605c;
+    background-color: rgb(40, 48, 40);
+    color: white;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 105px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Estilo para ajustar a largura do botão Send */
+#buttonInput {
+    margin-left: 5px;
+    width: 105px; /* Largura desejada em pixels */
+}
+
+/* Efeito de hover para os botões */
+.buttonInput:hover,
+.button-style:hover {
+    background-color: #6b6161;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+/* Estilos para o botão "Exit" */
+.exit-button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url('/static/chatbot/img/exit.png'); 
+    background-size: cover; /* Ajustando o tamanho da imagem */
+    width: 105px; /* Largura desejada em pixels */
+    height: 105px; /* Altura desejada em pixels */
+}
+
+/* Efeito de hover para o botão "Exit" */
+.exit-button:hover {
+    transform: scale(1.05);
+}
+
+/* ESTILOS PARA O TEXTO DO USUÁRIO */
+
+.userText {
+    text-align: right;
+    font-family: monospace;
+    font-size: 44px;
+    line-height: 25px;
+    color: rgb(109, 111, 109);
+}
+
+/* Estilo para centralizar o feedback */
+#feedback {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilo para as estrelas interativas */
+.rating {
+    display: inline-block;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.star {
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.star:hover {
+    color: #1eb311;
+    transform: scale(1.1);
+}
+
+
+/* Estilos para o rodapé (footer) */
+footer {
+    background-color: #e4767680;
+    text-align: center;
+    padding: 42px 0;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

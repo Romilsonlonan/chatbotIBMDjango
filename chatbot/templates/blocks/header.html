@@ -1,0 +1,28 @@
+<!--carrega os arquivos estáticos na página HTML-->
+{% load static %}
+
+<!-- Bloco de conteúdo da nossa página -->    
+{% block icons %}
+
+    <!-- Header -->
+    <header>
+        <!-- Navegação -->
+        <nav>
+            <a href="https://github.com/Romilsonlonan">
+                <!-- Imagem do GitHub -->
+                <img src="{% static 'chatbot/img/github.png' %}" id="github-icon">
+            </a>
+            <a href="https://linkedin.com/in/romilson-analista-de-dados">
+                <!-- Imagem do LinkedIn -->
+                <img src="{% static 'chatbot/img/linkedin.png' %}" id="linkedin-icon">
+            </a>
+
+            <!-- Logo IBM -->
+            <img src="{% static 'chatbot/img/logo_ibm.svg' %}" alt="Logo IBM" id="logo">
+
+            <!-- Título principal -->
+            <h1>ChatBot IBM</h1>
+        </nav>
+    </header>
+
+{% endblock %}

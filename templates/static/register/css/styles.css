@@ -1,0 +1,96 @@
+/* Reset CSS para remover estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+
+body * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000; /* Fundo escuro */
+    background-image: url('/static/register/img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Estilos para o container */
+.container {
+    max-width: 700px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+}
+
+/* FORMULÁRIO*/
+/* Estilos para o formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background-color: #333; /* Fundo escuro */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Letras brancas */
+    position: relative;
+}
+
+/*ICONE*/
+
+/* Estilos para o ícone botIBM */
+#ibm-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+/*RÓTULOS*/
+
+/* Estilos para os rótulos e campos de entrada */
+.label-field, .input-field {
+    display: block;
+    margin-bottom: 1px;
+    width: calc(100% - 0%);
+    height: 40px; /* Adicionando altura para os campos de entrada */
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 22px; /* Tamanho do texto */
+}
+
+/* Estilos para os rótulos */
+
+/* Estilos para os rótulos */
+.labels {
+    margin-left: -85%; /* Alinha os rótulos à esquerda */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 18px; /* Tamanho do texto */
+}
+
+/*BOTÃO*/
+
+/* Estilos para o botão de enviar */
+button {
+    margin: 0 auto;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
