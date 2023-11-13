@@ -1,5 +1,133 @@
 [
     {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "routers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "importPath": "register.models",
+        "description": "register.models",
+        "isExtraImport": true,
+        "detail": "register.models",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "importPath": "register.models",
+        "description": "register.models",
+        "isExtraImport": true,
+        "detail": "register.models",
+        "documentation": {}
+    },
+    {
+        "label": "Chatbot",
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "isExtraImport": true,
+        "detail": "chatbot.models",
+        "documentation": {}
+    },
+    {
+        "label": "Chatbot",
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "isExtraImport": true,
+        "detail": "chatbot.models",
+        "documentation": {}
+    },
+    {
+        "label": "MinhaMensagem",
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "isExtraImport": true,
+        "detail": "chatbot.models",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -17,6 +145,30 @@
     },
     {
         "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -57,6 +209,22 @@
     },
     {
         "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
         "importPath": "django.contrib",
         "description": "django.contrib",
         "isExtraImport": true,
@@ -145,43 +313,56 @@
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "uuid",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.urls",
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
         "documentation": {}
     },
     {
-        "label": "reverse",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "os",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.urls",
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "requests",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.urls",
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
         "documentation": {}
     },
     {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "json",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.urls",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
+        "label": "nltk",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.urls",
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -258,15 +439,6 @@
         "documentation": {}
     },
     {
-        "label": "nltk",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "nltk",
-        "description": "nltk",
-        "detail": "nltk",
-        "documentation": {}
-    },
-    {
         "label": "logout",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
@@ -275,36 +447,35 @@
         "documentation": {}
     },
     {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "importPath": "django.contrib.auth.models",
         "description": "django.contrib.auth.models",
         "isExtraImport": true,
         "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "constants",
-        "importPath": "django.contrib.messages",
-        "description": "django.contrib.messages",
-        "isExtraImport": true,
-        "detail": "django.contrib.messages",
-        "documentation": {}
-    },
-    {
-        "label": "constants",
-        "importPath": "django.contrib.messages",
-        "description": "django.contrib.messages",
-        "isExtraImport": true,
-        "detail": "django.contrib.messages",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -324,6 +495,14 @@
         "documentation": {}
     },
     {
+        "label": "RegisterViewSet",
+        "importPath": "api.viewsets",
+        "description": "api.viewsets",
+        "isExtraImport": true,
+        "detail": "api.viewsets",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -338,6 +517,60 @@
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "api.serializers",
+        "description": "api.serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Register\n        fields = '__all__'\nclass ChatbotSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Chatbot\n        fields = '__all__'",
+        "detail": "api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotSerializer",
+        "kind": 6,
+        "importPath": "api.serializers",
+        "description": "api.serializers",
+        "peekOfCode": "class ChatbotSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Chatbot\n        fields = '__all__'",
+        "detail": "api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'registers', RegisterViewSet, basename='register')\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "api.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterViewSet",
+        "kind": 6,
+        "importPath": "api.viewsets",
+        "description": "api.viewsets",
+        "peekOfCode": "class RegisterViewSet(viewsets.ModelViewSet):\n    queryset = Register.objects.all()\n    serializer_class = RegisterSerializer\nclass ChatbotViewSet(viewsets.ModelViewSet):\n    queryset = Chatbot.objects.all()\n    serializer_class = ChatbotSerializer",
+        "detail": "api.viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotViewSet",
+        "kind": 6,
+        "importPath": "api.viewsets",
+        "description": "api.viewsets",
+        "peekOfCode": "class ChatbotViewSet(viewsets.ModelViewSet):\n    queryset = Chatbot.objects.all()\n    serializer_class = ChatbotSerializer",
+        "detail": "api.viewsets",
         "documentation": {}
     },
     {
@@ -359,12 +592,39 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chatbot.migrations.0003_initial",
+        "description": "chatbot.migrations.0003_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        (\"chatbot\", \"0002_delete_mensagem\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Mensagem\",\n            fields=[\n                (",
+        "detail": "chatbot.migrations.0003_initial",
+        "documentation": {}
+    },
+    {
         "label": "ChatbotConfig",
         "kind": 6,
         "importPath": "chatbot.apps",
         "description": "chatbot.apps",
         "peekOfCode": "class ChatbotConfig(AppConfig):\n    default_auto_field = \"django.db.models.BigAutoField\"\n    name = \"chatbot\"",
         "detail": "chatbot.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Chatbot",
+        "kind": 6,
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "peekOfCode": "class Chatbot(models.Model):\n    nome = models.CharField(max_length=255)  # Adicione um campo como exemplo\nclass MinhaMensagem(models.Model):\n    texto = models.TextField()\n    data_envio = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.texto",
+        "detail": "chatbot.models",
+        "documentation": {}
+    },
+    {
+        "label": "MinhaMensagem",
+        "kind": 6,
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "peekOfCode": "class MinhaMensagem(models.Model):\n    texto = models.TextField()\n    data_envio = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.texto",
+        "detail": "chatbot.models",
         "documentation": {}
     },
     {
@@ -383,6 +643,15 @@
         "description": "chatbot.urls",
         "peekOfCode": "urlpatterns = [\n    path('chatbot/', views.chatbot, name='chatbot'),\n    path('exit/', views.exit, name='exit')\n]",
         "detail": "chatbot.urls",
+        "documentation": {}
+    },
+    {
+        "label": "Mensagem",
+        "kind": 6,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "class Mensagem(models.Model):\n    texto = models.CharField(max_length=255)\n    estrelas = models.IntegerField()\ndef minha_view(request):\n    if request.method == 'POST':\n        texto = request.POST.get('texto')\n        estrelas = request.POST.get('estrelas')\n        # Crie uma nova instância de Mensagem com os dados recebidos\n        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)\n        nova_mensagem.save()  # Salva a mensagem no banco de dados",
+        "detail": "chatbot.views",
         "documentation": {}
     },
     {
@@ -418,6 +687,15 @@
         "importPath": "chatbot.views",
         "description": "chatbot.views",
         "peekOfCode": "def chatbot(request):\n    # Verifica se a solicitação é do tipo POST\n    if request.method == 'POST':\n        # Obtém a entrada do usuário\n        user_input = request.POST.get('user_input', \"\")\n        # Prepara a entrada do usuário para processamento\n        processed_input = preprocess(user_input)\n        # Percorre o dicionário de interações\n        for pergunta, responder in pares:\n            # Verifica se a entrada do usuário contém todas as palavras-chave da pergunta",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "minha_view",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def minha_view(request):\n    if request.method == 'POST':\n        texto = request.POST.get('texto')\n        estrelas = request.POST.get('estrelas')\n        # Crie uma nova instância de Mensagem com os dados recebidos\n        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)\n        nova_mensagem.save()  # Salva a mensagem no banco de dados\n        # Retorna um objeto JSON com os dados da mensagem\n        return JsonResponse({\n            'id': nova_mensagem.id,",
         "detail": "chatbot.views",
         "documentation": {}
     },
@@ -570,7 +848,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'cache_utils',",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -579,7 +857,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'register', \n    'chatbot'",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'cache_utils',\n    'rest_framework',\n    'register', ",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -678,7 +956,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSAGE_TAGS = {",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -687,7 +965,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',",
+        "peekOfCode": "STATICFILES_DIRS = (os.path.join(BASE_DIR, 'templates/static'),)\nSTATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSAGE_TAGS = {\n    constants.DEBUG: 'alert-primary',",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -696,7 +974,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',",
+        "peekOfCode": "STATIC_ROOT = os.path.join('static')\nMEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSAGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -705,7 +983,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, 'media')\nMEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSAGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -714,7 +992,7 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',",
+        "peekOfCode": "MEDIA_URL = '/media/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSAGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',",
         "detail": "setup.settings",
         "documentation": {}
     },
@@ -723,17 +1001,26 @@
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',\n    constants.WARNING: 'alert-warning',\n}",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# Messages\nMESSAGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',\n    constants.WARNING: 'alert-warning',\n}",
         "detail": "setup.settings",
         "documentation": {}
     },
     {
-        "label": "MESSEGE_TAGS",
+        "label": "MESSAGE_TAGS",
         "kind": 5,
         "importPath": "setup.settings",
         "description": "setup.settings",
-        "peekOfCode": "MESSEGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',\n    constants.WARNING: 'alert-warning',\n}",
+        "peekOfCode": "MESSAGE_TAGS = {\n    constants.DEBUG: 'alert-primary',\n    constants.ERROR: 'alert-danger',\n    constants.SUCCESS: 'alert-success',\n    constants.INFO: 'alert-info',\n    constants.WARNING: 'alert-warning',\n}",
         "detail": "setup.settings",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "setup.urls",
+        "description": "setup.urls",
+        "peekOfCode": "router = routers.DefaultRouter()\nrouter.register(r'registers', RegisterViewSet)  # Substitua pelo seu viewset\nurlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('register.urls')),\n    path('auth/', include('chatbot.urls')),  \n    path('api/', include('api.urls')),\n]",
+        "detail": "setup.urls",
         "documentation": {}
     },
     {
@@ -741,7 +1028,7 @@
         "kind": 5,
         "importPath": "setup.urls",
         "description": "setup.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('register.urls')),\n    path('auth/', include('chatbot.urls')),  \n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('auth/', include('register.urls')),\n    path('auth/', include('chatbot.urls')),  \n    path('api/', include('api.urls')),\n]",
         "detail": "setup.urls",
         "documentation": {}
     },

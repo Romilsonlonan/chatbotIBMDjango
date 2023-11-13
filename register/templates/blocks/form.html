@@ -1,11 +1,12 @@
-<!--carrega os arquivos estáticos na página HTML-->
+<!-- carrega os arquivos estáticos na página HTML -->
 {% load static %}
 
 <!-- Bloco de conteúdo da nossa página -->
 {% block form %}
   <section>
-    <div class="container">      
-      <form action="{% url 'register' %}" method="POST">{% csrf_token %}
+    <div class="container">
+      <form autocomplete="off" action="{% url 'register' %}" method="POST">
+        {% csrf_token %}
         <h2>Registrar</h2>
         <div style="text-align:center;">
           <img src="{% static 'register/img/bot.png' %}" alt="IBM Chat" width="100" />
@@ -20,16 +21,14 @@
         <input type="text" id="contatos" name="contatos" required class="input-field" /><br />
 
         <a href="#"><button type="submit" class="btn btn-primary">Enviar</button></a>
-        <br>
+        <br />
         {% if messages %}
-        <br>
-        {% for message in messages %}
-          <div class="alert {{message.tags}}">
-            {{message}}
-          </div> 
-        {% endfor %}
-      {% endif %}
-      </form> 
+          <br />
+          {% for message in messages %}
+            <div class="alert {{ message.tags }}">{{ message }}</div>
+          {% endfor %}
+        {% endif %}
+      </form>
     </div>
-  </section>  
+  </section>
 {% endblock %}

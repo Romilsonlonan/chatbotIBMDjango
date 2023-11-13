@@ -54,6 +54,9 @@ def register(request):
             return render(request, '/auth/register')
         else:
             auth.chatbot(request, usuario)
-            return redirect("/auth/chatbot")
+    return redirect("/auth/chatbot")
+
+
+
 
 

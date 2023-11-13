@@ -1,3 +1,4 @@
+'''
 # INTALAÇÕES NECESSÁRIAS
 conda activate base
 conda create --name chatbot_django python=3.6
@@ -30,6 +31,11 @@ pip install pytest
 python3 manage.py test
 python3 manage.py shell
 
+# LIMPEZA DE CACHE 
+pip install django-cache-utils
 
 # INICIANDO O PROJETO
 django-admin startproject meu__projeto .
+
+
+'''

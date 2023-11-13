@@ -1,12 +1,21 @@
+import uuid
+import os
+import requests
+import json
+import nltk
+from django.db import models
+from datetime import datetime
 from django.http import JsonResponse
 from django.shortcuts import redirect, render
 from django.views.decorators.csrf import csrf_exempt
 from nltk.chat.util import Chat
 from textblob import TextBlob
-import nltk
 from django.contrib.auth import logout
 from django.contrib import auth
-#from .models import Mensagem
+from django.contrib import messages
+from django.contrib.messages import constants
+from django.contrib import auth
+from chatbot.models import MinhaMensagem
 
 
 
@@ -381,6 +390,7 @@ def extrair_palavras_chave(mensagem):
     keywords = [word for word, pos in tagged if pos in ['NN', 'VB', 'JJ']]  # Substantivos, verbos e adjetivos
     return keywords
 
+
 @csrf_exempt
 def chatbot(request):
     # Verifica se a solicitação é do tipo POST
@@ -405,24 +415,31 @@ def chatbot(request):
     return render(request, 'bases/chatbot.html')
 
 # verificar o uso em uma API
-#def minha_view(request):
-#    if request.method == 'POST':
-#        texto = request.POST.get('texto')  # Supondo que o campo de texto tenha o name="texto" no formulário
-#        estrelas = request.POST.get('estrelas')  # Supondo que o campo de estrelas tenha o name="estrelas" no formulário
+class Mensagem(models.Model):
+    texto = models.CharField(max_length=255)
+    estrelas = models.IntegerField()
+
+
+def minha_view(request):
+    if request.method == 'POST':
+        texto = request.POST.get('texto')
+        estrelas = request.POST.get('estrelas')
 
         # Crie uma nova instância de Mensagem com os dados recebidos
-#        nova_mensagem = Mensagem(texto=texto, estrelas=estrelas)
-#        nova_mensagem.save()  # Salva a mensagem no banco de dados
+        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)
+        nova_mensagem.save()  # Salva a mensagem no banco de dados
 
-#        return redirect('página_sucesso')  # Redireciona para uma página de sucesso ou outra página
+        # Retorna um objeto JSON com os dados da mensagem
+        return JsonResponse({
+            'id': nova_mensagem.id,
+            'texto': nova_mensagem.texto,
+            'estrelas': nova_mensagem.estrelas,
+            'data_envio': nova_mensagem.data_envio,
+        })
 
-#    return render(request, 'sua_template.html')  # Se for um pedido GET, renderiza a página com o formulário
+    return redirect("/chatbot")
+
 
 def exit(request):
     auth.logout(request)
     return redirect('/auth/register')
-
-
-
-
-

@@ -20,7 +20,7 @@
 
     <!-- Importa um arquivo CSS externo -->
         <!-- Bloco de Estilos -->
-        {% block styles %}
+        {% block styles.register %}
           <link rel="stylesheet" type="text/css" href="{% static 'register/css/styles.css' %}">
         {% endblock %}
 
@@ -43,7 +43,7 @@
     {% endblock %}
 
     <!-- bloco chatbot css -->
-    {% block 'chatbot/css/styles.css' %}
+    {% block styles.chatbot %}
       <link rel="stylesheet" type="text/css" href="{% static 'chatbot/css/styles.css' %}">
     {% endblock %}
 

@@ -27,9 +27,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cache_utils',
     'rest_framework',
     'register', 
-    'chatbot'
+    'chatbot',
+    'api',
 ]
 
 MIDDLEWARE = [
@@ -121,11 +123,11 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Messages
-
-MESSEGE_TAGS = {
+MESSAGE_TAGS = {
     constants.DEBUG: 'alert-primary',
     constants.ERROR: 'alert-danger',
     constants.SUCCESS: 'alert-success',
     constants.INFO: 'alert-info',
     constants.WARNING: 'alert-warning',
 }
+

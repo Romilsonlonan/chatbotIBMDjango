@@ -1,0 +1,104 @@
+[
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "importPath": "register.models",
+        "description": "register.models",
+        "isExtraImport": true,
+        "detail": "register.models",
+        "documentation": {}
+    },
+    {
+        "label": "Register",
+        "importPath": "register.models",
+        "description": "register.models",
+        "isExtraImport": true,
+        "detail": "register.models",
+        "documentation": {}
+    },
+    {
+        "label": "Chatbot",
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "isExtraImport": true,
+        "detail": "chatbot.models",
+        "documentation": {}
+    },
+    {
+        "label": "Chatbot",
+        "importPath": "chatbot.models",
+        "description": "chatbot.models",
+        "isExtraImport": true,
+        "detail": "chatbot.models",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterSerializer",
+        "kind": 6,
+        "importPath": "serializers",
+        "description": "serializers",
+        "peekOfCode": "class RegisterSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Register\n        fields = '__all__'\nclass ChatbotSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Chatbot\n        fields = '__all__'",
+        "detail": "serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotSerializer",
+        "kind": 6,
+        "importPath": "serializers",
+        "description": "serializers",
+        "peekOfCode": "class ChatbotSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = Chatbot\n        fields = '__all__'",
+        "detail": "serializers",
+        "documentation": {}
+    },
+    {
+        "label": "#router",
+        "kind": 5,
+        "importPath": "urls",
+        "description": "urls",
+        "peekOfCode": "#router = DefaultRouter()\n#router.register(r'registers', RegisterViewSet, basename='register')\n#urlpatterns = [\n#    path('', include(router.urls)),\n#]",
+        "detail": "urls",
+        "documentation": {}
+    },
+    {
+        "label": "#urlpatterns",
+        "kind": 5,
+        "importPath": "urls",
+        "description": "urls",
+        "peekOfCode": "#urlpatterns = [\n#    path('', include(router.urls)),\n#]",
+        "detail": "urls",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterViewSet",
+        "kind": 6,
+        "importPath": "viewsets",
+        "description": "viewsets",
+        "peekOfCode": "class RegisterViewSet(viewsets.ModelViewSet):\n    queryset = Register.objects.all()\n    serializer_class = RegisterSerializer\nclass ChatbotViewSet(viewsets.ModelViewSet):\n    queryset = Chatbot.objects.all()\n    serializer_class = ChatbotSerializer",
+        "detail": "viewsets",
+        "documentation": {}
+    },
+    {
+        "label": "ChatbotViewSet",
+        "kind": 6,
+        "importPath": "viewsets",
+        "description": "viewsets",
+        "peekOfCode": "class ChatbotViewSet(viewsets.ModelViewSet):\n    queryset = Chatbot.objects.all()\n    serializer_class = ChatbotSerializer",
+        "detail": "viewsets",
+        "documentation": {}
+    }
+]
