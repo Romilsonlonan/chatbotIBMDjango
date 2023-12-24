@@ -5,7 +5,7 @@ import json
 import nltk
 from django.db import models
 from datetime import datetime
-from django.http import JsonResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render
 from django.views.decorators.csrf import csrf_exempt
 from nltk.chat.util import Chat
@@ -25,11 +25,11 @@ nltk.download('vader_lexicon')
 # Listas de perguntas e respostas
 pares = [
     [
-        r'(.*) (Não|Negativo|De modo nehum|Assim não|Não quero!)',
+        r'(.*) Não|Negativo|De modo nehum|Assim não|Não quero!',
         ['Desculpe, então vamos tentar novamete? Reformule a pergunta.']
     ],
     [
-        r'(.*) (Não entendi|não compreendo|não entendo|não aceito)(.*?)!',
+        r'(.*) Não entendi|não compreendo|não entendo|não aceito|não gostei(.*?)!',
         ['Desculpe! Estou em processo de atualização. Pode reformular a pergunta?' ]
     ],
     [
@@ -41,27 +41,23 @@ pares = [
         ['Fico feliz por gostar da informação!']
     ],
     [
-        r'(.*) (nome?)',
+        r'(.*) nome?',
         ['Meu nome é ChatBot_IBM em que posso ajudar?']
     ],  
     [
         r'(.*) idade?',
         ['Não tenho idade pois sou um chatbot']
-    ], 
-    [
-        r'meu nome é (.*)',
-        ['Olá %1, como você está hoje?']
     ],  
     [
         r'eu trabalho na empresa (.*)',
         ['Eu conheço a empresa %1']
     ], 
     [
-        r'(.*) (cidade|país)',
+        r'(.*) cidade|país',
         ['São Paulo, Brasil']
     ], 
     [
-        r'(.*) (sustentabilidade)',
+        r'(.*) sustentabilidade|sustentáveis|soluções sustentáveis',
         ['A IBM desenvolve soluções inovadoras para melhorar a eficiência energética e promover práticas sustentáveis nas operações empresariais.']
     ], 
     [
@@ -427,18 +423,30 @@ def minha_view(request):
 
         # Crie uma nova instância de Mensagem com os dados recebidos
         nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)
-        nova_mensagem.save()  # Salva a mensagem no banco de dados
+        nova_mensagem.save(force_insert=True) # Salva a mensagem no banco de dados
+
+        # Incrementa a quantidade de acessos da mensagem
+        nova_mensagem.quantidade += 1
+        nova_mensagem.save(update_fields=['quantidade'])
 
         # Retorna um objeto JSON com os dados da mensagem
-        return JsonResponse({
-            'id': nova_mensagem.id,
-            'texto': nova_mensagem.texto,
-            'estrelas': nova_mensagem.estrelas,
-            'data_envio': nova_mensagem.data_envio,
-        })
+    return JsonResponse({
 
+        'id': nova_mensagem.id,
+        'texto': nova_mensagem.texto,
+        'estrelas': nova_mensagem.estrelas,
+        'data_envio': nova_mensagem.data_envio,
+        'quantidade' : models.PositiveIntegerField
+    })
     return redirect("/chatbot")
 
+def feedback(request):
+    if request.method == 'POST':
+        rating = request.POST.get('rating')
+        # Salve a classificação no banco de dados
+        return HttpResponse('Obrigado pelo feedback! Sua classificação foi de {}.'.format(rating))
+
+    return render(request, 'feedback.html')
 
 def exit(request):
     auth.logout(request)

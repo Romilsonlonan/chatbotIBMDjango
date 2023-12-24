@@ -168,6 +168,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -371,6 +387,14 @@
         "isExtraImport": true,
         "importPath": "django.http",
         "description": "django.http",
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
         "detail": "django.http",
         "documentation": {}
     },
@@ -601,6 +625,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "chatbot.migrations.0004_chatbot_minhamensagem_remove_mensagem_data_envio_and_more",
+        "description": "chatbot.migrations.0004_chatbot_minhamensagem_remove_mensagem_data_envio_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        (\"chatbot\", \"0003_initial\"),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name=\"Chatbot\",\n            fields=[\n                (\n                    \"id\",",
+        "detail": "chatbot.migrations.0004_chatbot_minhamensagem_remove_mensagem_data_envio_and_more",
+        "documentation": {}
+    },
+    {
         "label": "ChatbotConfig",
         "kind": 6,
         "importPath": "chatbot.apps",
@@ -614,7 +647,7 @@
         "kind": 6,
         "importPath": "chatbot.models",
         "description": "chatbot.models",
-        "peekOfCode": "class Chatbot(models.Model):\n    nome = models.CharField(max_length=255)  # Adicione um campo como exemplo\nclass MinhaMensagem(models.Model):\n    texto = models.TextField()\n    data_envio = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.texto",
+        "peekOfCode": "class Chatbot(models.Model):\n    nome = models.CharField(max_length=255)  # Adicione um campo como exemplo\nclass MinhaMensagem(models.Model):\n    id = models.AutoField(primary_key=True)\n    texto = models.TextField()\n    data_envio = models.DateTimeField(auto_now_add=True)\n    quantidade = models.PositiveIntegerField()\ndef __str__(self):\n    return self.texto",
         "detail": "chatbot.models",
         "documentation": {}
     },
@@ -623,7 +656,7 @@
         "kind": 6,
         "importPath": "chatbot.models",
         "description": "chatbot.models",
-        "peekOfCode": "class MinhaMensagem(models.Model):\n    texto = models.TextField()\n    data_envio = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.texto",
+        "peekOfCode": "class MinhaMensagem(models.Model):\n    id = models.AutoField(primary_key=True)\n    texto = models.TextField()\n    data_envio = models.DateTimeField(auto_now_add=True)\n    quantidade = models.PositiveIntegerField()\ndef __str__(self):\n    return self.texto",
         "detail": "chatbot.models",
         "documentation": {}
     },
@@ -650,7 +683,7 @@
         "kind": 6,
         "importPath": "chatbot.views",
         "description": "chatbot.views",
-        "peekOfCode": "class Mensagem(models.Model):\n    texto = models.CharField(max_length=255)\n    estrelas = models.IntegerField()\ndef minha_view(request):\n    if request.method == 'POST':\n        texto = request.POST.get('texto')\n        estrelas = request.POST.get('estrelas')\n        # Crie uma nova instância de Mensagem com os dados recebidos\n        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)\n        nova_mensagem.save()  # Salva a mensagem no banco de dados",
+        "peekOfCode": "class Mensagem(models.Model):\n    texto = models.CharField(max_length=255)\n    estrelas = models.IntegerField()\ndef minha_view(request):\n    if request.method == 'POST':\n        texto = request.POST.get('texto')\n        estrelas = request.POST.get('estrelas')\n        # Crie uma nova instância de Mensagem com os dados recebidos\n        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)\n        nova_mensagem.save(force_insert=True) # Salva a mensagem no banco de dados",
         "detail": "chatbot.views",
         "documentation": {}
     },
@@ -695,7 +728,16 @@
         "kind": 2,
         "importPath": "chatbot.views",
         "description": "chatbot.views",
-        "peekOfCode": "def minha_view(request):\n    if request.method == 'POST':\n        texto = request.POST.get('texto')\n        estrelas = request.POST.get('estrelas')\n        # Crie uma nova instância de Mensagem com os dados recebidos\n        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)\n        nova_mensagem.save()  # Salva a mensagem no banco de dados\n        # Retorna um objeto JSON com os dados da mensagem\n        return JsonResponse({\n            'id': nova_mensagem.id,",
+        "peekOfCode": "def minha_view(request):\n    if request.method == 'POST':\n        texto = request.POST.get('texto')\n        estrelas = request.POST.get('estrelas')\n        # Crie uma nova instância de Mensagem com os dados recebidos\n        nova_mensagem = MinhaMensagem(texto=texto, estrelas=estrelas)\n        nova_mensagem.save(force_insert=True) # Salva a mensagem no banco de dados\n        # Incrementa a quantidade de acessos da mensagem\n        nova_mensagem.quantidade += 1\n        nova_mensagem.save(update_fields=['quantidade'])",
+        "detail": "chatbot.views",
+        "documentation": {}
+    },
+    {
+        "label": "feedback",
+        "kind": 2,
+        "importPath": "chatbot.views",
+        "description": "chatbot.views",
+        "peekOfCode": "def feedback(request):\n    if request.method == 'POST':\n        rating = request.POST.get('rating')\n        # Salve a classificação no banco de dados\n        return HttpResponse('Obrigado pelo feedback! Sua classificação foi de {}.'.format(rating))\n    return render(request, 'feedback.html')\ndef exit(request):\n    auth.logout(request)\n    return redirect('/auth/register')",
         "detail": "chatbot.views",
         "documentation": {}
     },
@@ -713,7 +755,7 @@
         "kind": 5,
         "importPath": "chatbot.views",
         "description": "chatbot.views",
-        "peekOfCode": "pares = [\n    [\n        r'(.*) (Não|Negativo|De modo nehum|Assim não|Não quero!)',\n        ['Desculpe, então vamos tentar novamete? Reformule a pergunta.']\n    ],\n    [\n        r'(.*) (Não entendi|não compreendo|não entendo|não aceito)(.*?)!',\n        ['Desculpe! Estou em processo de atualização. Pode reformular a pergunta?' ]\n    ],\n    [",
+        "peekOfCode": "pares = [\n    [\n        r'(.*) Não|Negativo|De modo nehum|Assim não|Não quero!',\n        ['Desculpe, então vamos tentar novamete? Reformule a pergunta.']\n    ],\n    [\n        r'(.*) Não entendi|não compreendo|não entendo|não aceito|não gostei(.*?)!',\n        ['Desculpe! Estou em processo de atualização. Pode reformular a pergunta?' ]\n    ],\n    [",
         "detail": "chatbot.views",
         "documentation": {}
     },
